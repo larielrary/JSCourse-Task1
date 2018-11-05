@@ -8,12 +8,6 @@ var person = {
 }
 
 var clonePerson = Clone(person);
-console.log(person);
-console.log(clonePerson);
-clonePerson.age = 20;
-console.log("After changing")
-console.log(person);
-console.log(clonePerson);
 
 function Clone(obj) {
     var clone = {}; 
